@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@import './header.css';
+@import './categories.css';
+@import './search.css';
+@import './destinations.css';
+@import './experiences.css';
+@import './footer.css';
+
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
+  padding-top: 60px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 1200px;
+  padding: 32px 0;
+}
+
+input {
+  border: none
+}
+
+input:focus-visible {
+  outline: 0;
+}

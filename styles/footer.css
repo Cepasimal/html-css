@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 18px 24px;
+  background-color: #faf1ed;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+footer .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.link-list {
+  display: flex;
+  gap: 12px;
+}
+
+footer a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #333;
+}
+
+footer a:hover {
+  color: #545454;
+}

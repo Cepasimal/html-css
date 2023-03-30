@@ -1,0 +1,45 @@
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.experience-container {
+  position: relative;
+}
+
+.experience-container .background {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.experience-container .description {
+  position: absolute;
+  bottom: 0;
+  padding: 32px 24px;
+  color: #fff;
+}
+
+.experience-container .subtitle {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.experience-container .button {
+  display: flex;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  width: fit-content;
+}
+
+.experience-container .button:hover {
+  background-color: #eee;
+}
+

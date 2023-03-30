@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0; 
+  z-index: 1; 
+  height: 60px;
+  background-color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  padding: 0 24px;
+}
+
+header .logo {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  gap: 4px;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #fff;
+  color: black;
+  transition: background-color linear 0.1s;
+}
+
+.menu-button:hover {
+  background-color: #eee;
+}
+
+.sign-in-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+
+.sign-in-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
